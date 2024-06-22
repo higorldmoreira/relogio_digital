@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relógio</title>
-    <link rel="shortcut icon" href="./assets/img/relogio.png">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Metadados do documento -->
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização para dispositivos móveis -->
+    <title>Relógio</title> <!-- Título da página -->
+
+    <!-- Links para ícones e estilos -->
+    <link rel="shortcut icon" href="./assets/img/relogio.png"> <!-- Ícone da página -->
+    <link rel="stylesheet" href="./assets/css/style.css"> <!-- Link para o arquivo CSS externo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Pré-conexão com Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Pré-conexão com Google Fonts com suporte a CORS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> <!-- Importação da fonte Roboto -->
 </head>
 <body>
     <main>
+        <!-- Cabeçalho da página -->
         <header>
-            <h1 class="roboto-bold">Horário de Brasília</h1>
-            <h4 class="roboto-light">Acerte seu relógio com horário de Brasília, a hora oficial do Brasil</h4>
+            <h1 class="roboto-bold">Horário de Brasília</h1> <!-- Título principal com fonte Roboto em negrito -->
+            <h4 class="roboto-light">Acerte seu relógio com horário de Brasília, a hora oficial do Brasil</h4> <!-- Subtítulo com fonte Roboto leve -->
         </header>
         
+        <!-- Seção principal do conteúdo -->
         <section>
-            <div class="roboto-medium" id="dataAtual"></div>
-            <div class="roboto-bold" id="hora"></div>
+            <div class="roboto-medium" id="dataAtual"></div> <!-- Div para exibir a data atual com fonte Roboto média -->
+            <div class="roboto-bold" id="hora"></div> <!-- Div para exibir a hora atual com fonte Roboto em negrito -->
             <div class="aviso">
-                <p>A hora certa é sincronizada automaticamente. Não é necessário recarregar a página.</p>
+                <p>A hora certa é sincronizada automaticamente. Não é necessário recarregar a página.</p> <!-- Aviso informando sobre a sincronização automática da hora -->
             </div>
         </section>
     </main>
     
+    <!-- Rodapé da página -->
     <footer>
-        <p>&copy; 2024 Desenvolvido por <a href="https://github.com/higorldmoreira">Higor Moreira</a></p>
+        <p>&copy; 2024 Desenvolvido por <a href="https://github.com/higorldmoreira">Higor Moreira</a></p> <!-- Créditos de desenvolvimento com link para o perfil do GitHub -->
     </footer>
 
+    <!-- Link para o arquivo JavaScript externo -->
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
